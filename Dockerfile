@@ -49,7 +49,7 @@ ENV PORT="8080"
 ENV NODE_ENV="production"
 # BONUS: This should be injected at runtime from a secrets manager
 # We will review the solution next class
-# ENV WEATHER_API_KEY="bc2682b67f497cf9a1f5bfbdde7a4ea1"
+ENV WEATHER_API_KEY="9a0ab1c6d3375c97e68a7d23a21a4fad"
 
 WORKDIR /cst8918-a01
 
