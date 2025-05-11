@@ -24,6 +24,11 @@ spec:
           ports:
             - containerPort: 8080
           env:
+            - name: WEATHER_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: weather
+                  key: api-key
             - name: POD_NAME
               valueFrom:
                 fieldRef:
